@@ -1,0 +1,162 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+}
+h1 {
+    font-family: var(--bs-font-sans-serif);
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2 {
+    font-family: var(--bs-font-sans-serif);
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffff;
+}
+h3 {
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* title section */
+
+#title {
+    background-color: #ff4c68;
+    color: #ffff;
+}
+.container-fluid{
+    padding: 3% 15% 4%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.download {
+    margin: 5% 3% 5% 0;
+}
+.phone-container {
+    position: relative;
+}
+.title-image {
+    width: 60%;
+    margin-left: 15%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+@media (max-width: 992px){
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        margin: 0;
+        transform: rotate(0);
+    }
+}
+
+/* Features section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+.feature-col {
+    text-align: center;
+    margin: 5% 0 3%;
+    padding: 0 44px;
+}
+.fa-4x {
+    color: #ef8172;
+    margin-bottom: 15px;
+}
+.fa-4x:hover {
+    color: #ff4c68;
+}
+.feature-para {
+    color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+}
+.testimonial-image {
+    border-radius: 100%;
+    width: 12%;
+    margin-top: 5%;
+}
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding: 0 10%;
+}
+.press-image {
+    width: 12%;
+    margin: 0 1.5% 2%;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-head {
+     color: black;
+}
+.pricing-card {
+    padding: 3% 2%;
+}
+.price {
+    color: black;
+}
+
+/* call to action */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+}
+.cta-container {
+    padding: 5% 10% 8%;
+}
+.cta-header {
+    color: #fff;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 3.2rem;
+}
+.cta-button {
+    margin-top: 8%; 
+}
+
+/* footer section */
+
+#footer {
+    text-align: center;
+    padding: 4% 5%;
+}
+.foot-icon {
+    margin: 0 1% 3%;
+}
